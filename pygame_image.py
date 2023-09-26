@@ -25,7 +25,7 @@ def main():
         screen.blit(koukaton_lst[tmr%2],[200, 300])
         pg.display.update()
         tmr += 1        
-        clock.tick(1000000)
+        clock.tick(100)
 
 
 if __name__ == "__main__":
